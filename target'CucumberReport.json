@@ -1,0 +1,298 @@
+[
+	{
+		"line": 1,
+		"elements": [
+			{
+				"start_timestamp": "2024-01-06T08:23:35.487Z",
+				"before": [
+					{
+						"result": {
+							"duration": 1028900,
+							"status": "passed"
+						},
+						"match": {
+							"location": "stepDefinitions.Hooks.beforeRegTest()"
+						}
+					}
+				],
+				"line": 17,
+				"name": "Validate Login with the right username and password",
+				"description": "",
+				"id": "validating-login-functionality;validate-login-with-the-right-username-and-password;;2",
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"duration": 1001800,
+							"status": "passed"
+						},
+						"line": 10,
+						"name": "User is on the login page",
+						"match": {
+							"location": "stepDefinitions.LoginValidations.user_is_on_the_login_page()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 3999600,
+							"status": "passed"
+						},
+						"line": 11,
+						"name": "User enters the username as User1 and password as Password1",
+						"match": {
+							"location": "stepDefinitions.LoginValidations.user_enters_the_username_as_user1_and_password_as_password1()"
+						},
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"status": "passed"
+						},
+						"line": 12,
+						"name": "User clciks on the Login button",
+						"match": {
+							"location": "stepDefinitions.LoginValidations.user_clciks_on_the_login_button()"
+						},
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"status": "passed"
+						},
+						"line": 13,
+						"name": "Application hompage will be displayed",
+						"match": {
+							"location": "stepDefinitions.LoginValidations.application_hompage_will_be_displayed()"
+						},
+						"keyword": "Then "
+					}
+				],
+				"tags": [
+					{
+						"name": "@RegTest"
+					}
+				]
+			},
+			{
+				"start_timestamp": "2024-01-06T08:23:35.535Z",
+				"before": [
+					{
+						"result": {
+							"status": "passed"
+						},
+						"match": {
+							"location": "stepDefinitions.Hooks.beforeRegTest()"
+						}
+					}
+				],
+				"line": 18,
+				"name": "Validate Login with the right username and password",
+				"description": "",
+				"id": "validating-login-functionality;validate-login-with-the-right-username-and-password;;3",
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"status": "passed"
+						},
+						"line": 10,
+						"name": "User is on the login page",
+						"match": {
+							"location": "stepDefinitions.LoginValidations.user_is_on_the_login_page()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"status": "passed"
+						},
+						"line": 11,
+						"name": "User enters the username as User2 and password as Password2",
+						"match": {
+							"location": "stepDefinitions.LoginValidations.user_enters_the_username_as_user2_and_password_as_password2()"
+						},
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"status": "passed"
+						},
+						"line": 12,
+						"name": "User clciks on the Login button",
+						"match": {
+							"location": "stepDefinitions.LoginValidations.user_clciks_on_the_login_button()"
+						},
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"status": "passed"
+						},
+						"line": 13,
+						"name": "Application hompage will be displayed",
+						"match": {
+							"location": "stepDefinitions.LoginValidations.application_hompage_will_be_displayed()"
+						},
+						"keyword": "Then "
+					}
+				],
+				"tags": [
+					{
+						"name": "@RegTest"
+					}
+				]
+			},
+			{
+				"start_timestamp": "2024-01-06T08:23:35.542Z",
+				"before": [
+					{
+						"result": {
+							"status": "passed"
+						},
+						"match": {
+							"location": "stepDefinitions.Hooks.beforeRegTest()"
+						}
+					}
+				],
+				"line": 19,
+				"name": "Validate Login with the right username and password",
+				"description": "",
+				"id": "validating-login-functionality;validate-login-with-the-right-username-and-password;;4",
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"duration": 1008300,
+							"status": "passed"
+						},
+						"line": 10,
+						"name": "User is on the login page",
+						"match": {
+							"location": "stepDefinitions.LoginValidations.user_is_on_the_login_page()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"status": "passed"
+						},
+						"line": 11,
+						"name": "User enters the username as User3 and password as Password3",
+						"match": {
+							"location": "stepDefinitions.LoginValidations.user_enters_the_username_as_user3_and_password_as_password3()"
+						},
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"status": "passed"
+						},
+						"line": 12,
+						"name": "User clciks on the Login button",
+						"match": {
+							"location": "stepDefinitions.LoginValidations.user_clciks_on_the_login_button()"
+						},
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 1005100,
+							"status": "passed"
+						},
+						"line": 13,
+						"name": "Application hompage will be displayed",
+						"match": {
+							"location": "stepDefinitions.LoginValidations.application_hompage_will_be_displayed()"
+						},
+						"keyword": "Then "
+					}
+				],
+				"tags": [
+					{
+						"name": "@RegTest"
+					}
+				]
+			},
+			{
+				"start_timestamp": "2024-01-06T08:23:35.551Z",
+				"before": [
+					{
+						"result": {
+							"status": "passed"
+						},
+						"match": {
+							"location": "stepDefinitions.Hooks.beforeRegTest()"
+						}
+					}
+				],
+				"line": 20,
+				"name": "Validate Login with the right username and password",
+				"description": "",
+				"id": "validating-login-functionality;validate-login-with-the-right-username-and-password;;5",
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"status": "passed"
+						},
+						"line": 10,
+						"name": "User is on the login page",
+						"match": {
+							"location": "stepDefinitions.LoginValidations.user_is_on_the_login_page()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"status": "passed"
+						},
+						"line": 11,
+						"name": "User enters the username as User4 and password as Password4",
+						"match": {
+							"location": "stepDefinitions.LoginValidations.user_enters_the_username_as_user4_and_password_as_password4()"
+						},
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"status": "passed"
+						},
+						"line": 12,
+						"name": "User clciks on the Login button",
+						"match": {
+							"location": "stepDefinitions.LoginValidations.user_clciks_on_the_login_button()"
+						},
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"status": "passed"
+						},
+						"line": 13,
+						"name": "Application hompage will be displayed",
+						"match": {
+							"location": "stepDefinitions.LoginValidations.application_hompage_will_be_displayed()"
+						},
+						"keyword": "Then "
+					}
+				],
+				"tags": [
+					{
+						"name": "@RegTest"
+					}
+				]
+			}
+		],
+		"name": "Validating login functionality",
+		"description": "//Background:\n//Given User launches a specific application URL",
+		"id": "validating-login-functionality",
+		"keyword": "Feature",
+		"uri": "file:src/test/java/featureFiles/LoginFunctionality.feature",
+		"tags": []
+	}
+]

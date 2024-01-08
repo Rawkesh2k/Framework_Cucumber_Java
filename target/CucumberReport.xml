@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.23" tests="4" skipped="0" failures="0" errors="0">
+<testcase classname="Validating login functionality" name="Validate Login with the right username and password - Example #1.1" time="0.041">
+<system-out><![CDATA[
+Given User is on the login page.............................................passed
+When User enters the username as User1 and password as Password1............passed
+And User clciks on the Login button.........................................passed
+Then Application hompage will be displayed..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating login functionality" name="Validate Login with the right username and password - Example #1.2" time="0.002">
+<system-out><![CDATA[
+Given User is on the login page.............................................passed
+When User enters the username as User2 and password as Password2............passed
+And User clciks on the Login button.........................................passed
+Then Application hompage will be displayed..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating login functionality" name="Validate Login with the right username and password - Example #1.3" time="0.003">
+<system-out><![CDATA[
+Given User is on the login page.............................................passed
+When User enters the username as User3 and password as Password3............passed
+And User clciks on the Login button.........................................passed
+Then Application hompage will be displayed..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating login functionality" name="Validate Login with the right username and password - Example #1.4" time="0.005">
+<system-out><![CDATA[
+Given User is on the login page.............................................passed
+When User enters the username as User4 and password as Password4............passed
+And User clciks on the Login button.........................................passed
+Then Application hompage will be displayed..................................passed
+]]></system-out>
+</testcase>
+</testsuite>
